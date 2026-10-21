@@ -7,7 +7,7 @@ import sidebar from './src/sidebar.json' with { type: 'json' };
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://jackcasstlesjones.github.io',
+	site: 'https://ozeaon.github.io',
 	base: '/ozeaon-wiki',
 	integrations: [
 		mermaid({ autoTheme: true }),
