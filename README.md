@@ -2,6 +2,8 @@
 
 Team process and developer docs for [OZEAON](https://github.com/ozeaon/ozeaon-v2), built with Astro Starlight and deployed to GitHub Pages on push to `main`.
 
+Live site: https://ozeaon.github.io/ozeaon-wiki/
+
 The site is split into two sidebar topics with [starlight-sidebar-topics](https://github.com/HiDeoo/starlight-sidebar-topics), configured in `astro.config.mjs`:
 
 - **Team Process**: how work moves through the team, for everyone. Pages live in `src/content/docs/process/`, and the sidebar autogenerates from that folder, sorted by each page's `sidebar.order`.
