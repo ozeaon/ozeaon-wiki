@@ -1,0 +1,214 @@
+[
+  {
+    "label": "Overview",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "overview"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Architecture",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "architecture"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Authentication & Accounts",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "auth-and-accounts"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Posts",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "posts"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Projects",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "projects"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Articles",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "articles"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Organisations",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "organisations"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Profiles & Social",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "profiles"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Community",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "community"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Rich Text Editor",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "editor"
+        }
+      }
+    ]
+  },
+  {
+    "label": "API & Server Actions",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "api-layer"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Forms & Validation",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "forms"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Moderation",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "moderation"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Storage & Media",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "storage"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Design System",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "design-system"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Components",
+    "items": [
+      "components/account",
+      "components/articles",
+      "components/auth",
+      "components/events",
+      "components/home",
+      "components/icons",
+      "components/nav",
+      "components/notifications",
+      "components/organizations",
+      "components/posts",
+      "components/projects",
+      "components/profiles",
+      "components/search",
+      "components/shadcn",
+      "components/tiptap",
+      "components/users",
+      {
+        "label": "UI",
+        "collapsed": true,
+        "items": [
+          {
+            "autogenerate": {
+              "directory": "components/ui"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Configuration & Utilities",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "config-and-utils"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Operations & Deployment",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "operations"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Developer Guide",
+    "items": [
+      {
+        "autogenerate": {
+          "directory": "developer-guide"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+/* OZEAON brand blue (--ozeaon-blue / --slate-blue #4c647e), from ozeaon-v2 src/styles/globals.css.
+   Dark theme uses lighter tints of the same hue so links stay readable on the dark background. */
+:root {
+	--sl-color-accent-low: #1e2935;
+	--sl-color-accent: #8ea5bd;
+	--sl-color-accent-high: #d6e0ea;
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-low: #dfe6ee;
+	--sl-color-accent: #4c647e;
+	--sl-color-accent-high: #2c3b4b;
+}
+
+/* Keep the landing-page hero logo modest instead of the default 400px. */
+.hero img {
+	width: min(16rem, 60vw);
+	height: auto;
+}
+
+/* Full-width tables. Starlight sets tables to display: block so they scroll sideways on
+   narrow screens; keep that on mobile and stretch them to the content width above it. */
+@media (min-width: 50rem) {
+	.sl-markdown-content table {
+		display: table;
+		width: 100%;
+	}
+}

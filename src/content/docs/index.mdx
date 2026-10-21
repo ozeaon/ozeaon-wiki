@@ -1,0 +1,61 @@
+---
+title: OZEAON Wiki
+description: Team process and developer documentation for OZEAON.
+template: splash
+hero:
+  image:
+    file: ../../assets/ozeaon-logo-square.svg
+    alt: OZEAON logo
+  tagline: How the team works, and how the OZEAON ocean conservation platform is built.
+  actions:
+    - text: "How We Work"
+      link: /ozeaon-wiki/process/
+      icon: right-arrow
+    - text: "Developer Docs"
+      link: /ozeaon-wiki/overview/project-overview/
+      variant: minimal
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## How We Work
+
+For everyone on the team: how work moves from idea to production.
+
+<CardGrid>
+  <LinkCard title="Kanban" description="The 11 columns of the Monday board, who owns each, and how design work reaches dev." href="/ozeaon-wiki/process/kanban/" />
+  <LinkCard title="Change Requests" description="How to change anything after Design Done, plus internal feedback and bug intake." href="/ozeaon-wiki/process/change-requests/" />
+  <LinkCard title="Preview Environments" description="QA on each pull request's own preview: the link, test accounts and traps." href="/ozeaon-wiki/process/preview-environments/" />
+  <LinkCard title="Team Resources" description="The Figma design file, the two Monday boards and the shared drive." href="/ozeaon-wiki/process/team-resources/" />
+  <LinkCard title="All process docs" description="New features, documentation conventions, design omissions and PR rules." href="/ozeaon-wiki/process/" />
+</CardGrid>
+
+## Developer Docs
+
+<CardGrid>
+  <LinkCard title="Project Overview" description="What the platform does, what is planned, and the decisions that shape the code." href="/ozeaon-wiki/overview/project-overview/" />
+  <LinkCard title="Getting Started" description="Run the app and a local Supabase in a few commands." href="/ozeaon-wiki/overview/getting-started/" />
+</CardGrid>
+
+### Sections
+
+<CardGrid>
+  <LinkCard title="Architecture" description="Route groups, rendering and caching, Supabase clients, the data model and generated types." href="/ozeaon-wiki/architecture/app-structure/" />
+  <LinkCard title="Authentication & Accounts" description="Sign-in flows, account switching and user settings." href="/ozeaon-wiki/auth-and-accounts/auth-flows/" />
+  <LinkCard title="Posts" description="The community feed, the post composer, post images and reposts." href="/ozeaon-wiki/posts/posts/" />
+  <LinkCard title="Projects" description="Project drafts, publishing and the project feeds." href="/ozeaon-wiki/projects/projects/" />
+  <LinkCard title="Articles" description="Article authoring, publishing and the reader view." href="/ozeaon-wiki/articles/articles-authoring/" />
+  <LinkCard title="Organisations" description="Organisation profiles, membership, roles, invitations and join requests." href="/ozeaon-wiki/organisations/organisations/" />
+  <LinkCard title="Profiles & Social" description="User profiles, profile images and the social graph." href="/ozeaon-wiki/profiles/profiles-and-social-graph/" />
+  <LinkCard title="Community" description="Comments and reactions, notifications and search." href="/ozeaon-wiki/community/comments-and-reactions/" />
+  <LinkCard title="Rich Text Editor" description="The Tiptap editor core, toolbar, upload registry and editor API." href="/ozeaon-wiki/editor/tiptap-core/" />
+  <LinkCard title="API & Server Actions" description="Route handler conventions, server actions, queries and edge functions." href="/ozeaon-wiki/api-layer/api-routes/" />
+  <LinkCard title="Forms & Validation" description="How the multi-section editor forms work: schemas, field wrappers, drafts and publishing, and server error mapping." href="/ozeaon-wiki/forms/form-architecture/" />
+  <LinkCard title="Moderation" description="Automated moderation with the OpenAI moderation API, and how rejections reach the UI." href="/ozeaon-wiki/moderation/moderation/" />
+  <LinkCard title="Storage & Media" description="R2 storage through StorageAdapter, uploads, image URLs and serving." href="/ozeaon-wiki/storage/storage-r2/" />
+  <LinkCard title="Design System" description="Design tokens, UI primitives, layout shells and navigation." href="/ozeaon-wiki/design-system/design-tokens/" />
+  <LinkCard title="Components" description="A catalog of the components under src/components, grouped by domain." href="/ozeaon-wiki/components/account/" />
+  <LinkCard title="Configuration & Utilities" description="Environment config, constants, shared hooks and utilities." href="/ozeaon-wiki/config-and-utils/config-constants/" />
+  <LinkCard title="Operations & Deployment" description="Cloudflare deployment, CI/CD and previews, logging, migrations and seeding, and email integrations." href="/ozeaon-wiki/operations/cloudflare-deployment/" />
+  <LinkCard title="Developer Guide" description="Coding conventions, lint rules, the end-to-end feature workflow and the Claude Code setup." href="/ozeaon-wiki/developer-guide/conventions-and-linting/" />
+</CardGrid>
